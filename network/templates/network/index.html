@@ -1,0 +1,69 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+	<div id="body-div">
+		<div id="newPost">
+		    <h2>All Posts</h2>
+
+		    <div id="newPost-div">
+		    	<p id="newPost-title"><strong>New Post</strong></p>
+		    	<form id="newPost-form">
+		    		<textarea class="form-control" id="newPost-body" placeholder="What do You want to say to the world?"></textarea>
+		    		<input type="submit" class="btn btn-primary" value="Post">
+		    	</form>
+		    </div>
+	    </div>
+	    <div id="profile">
+	    	<div id="header">
+				<div id="title">
+			    <h1>Profile</h1>
+			    </div>
+			    <div id="followButton-div">
+			    	<button id="followButton">Follow</button>
+			    </div>
+	    	</div>
+	    	<div id="statistic">
+		    	<div class="numbers">
+		    		<div class="p1">
+		    			<p class="specP"><strong>Followers:</strong></p>
+		    		</div>
+		    		<div class="p2">
+		    			<h2 id="followerNumber">0</h2>		
+		    		</div>
+		    	</div>
+		    	<div class="numbers">
+		    		<div class="p1">
+		    			<p class="specP"><strong>Following:</strong></p>
+		    		</div>
+		    		<div class="p2">
+		    			<h2 id="followingNumber">0</h2>		
+		    		</div>
+		    	</div>
+	    	</div>
+	    </div>
+	    <div id="posts-div">
+	    	<div id="page_nav">
+		    	<nav aria-label="Page navigation example">
+				  <ul class="pagination">
+				  	<li class="page-item">
+				      <a class="page-link" id="previous" href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				      </a>
+				    </li>
+				    <li class="page-item">
+				      <a class="page-link" id="next" href="#" aria-label="next">
+				        <span aria-hidden="true">&raquo;</span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+			</div>
+			<div id="posts-div2"></div>
+	    </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+	<script src="{% static 'network/index.js' %}"></script>
+{% endblock %}

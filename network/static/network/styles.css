@@ -1,0 +1,102 @@
+#body-div {
+	padding: 20px;
+}
+
+#newPost-div, #posts-div {
+	border: 1px solid silver;
+	padding: 20px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+#newPost-title {
+	font-size: 20px;
+}
+
+#newPost-body {
+	margin-bottom: 5px;
+}
+
+.post-div {
+	width: 800px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	background-color: silver;
+	box-shadow: 0px 0px 5px grey;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.publisher {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.publisher:hover {
+	cursor: pointer;
+}
+
+.edit {
+	color: blue;
+}
+
+.edit:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.timestamp {
+	color: grey;
+	font-size: 14px;
+}
+
+#statistic {
+	padding-left: 30px;
+	margin-bottom: 50px;
+}
+
+.numbers {
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: grey;
+	display: inline-block;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+.p1, .p2 {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.p1 {
+	margin-right: 20px;
+}
+
+#header {
+	height: 100px;
+	margin-bottom: 50px;
+}
+
+#title, #followButton-div {
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align: middle;
+}
+
+#followButton-div {
+}
+
+h1 {
+	font-size: 70px;
+	margin: 0px;
+}
+
+button {
+	height: 50px;
+	border: 2px solid black;
+	width: 100px;
+}
